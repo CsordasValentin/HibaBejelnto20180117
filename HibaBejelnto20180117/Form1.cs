@@ -19,7 +19,7 @@ namespace HibaBejelnto20180117
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -31,5 +31,8 @@ namespace HibaBejelnto20180117
         {
 
         }
+        
+        
     }
+     
 }
