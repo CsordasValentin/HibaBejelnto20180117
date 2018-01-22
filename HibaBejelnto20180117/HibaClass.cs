@@ -8,11 +8,6 @@ namespace HibaBejelnto20180117
 {
     class HibaClass
     {
-        //public String Nev;
-        //public DateTime BejelentesDatum;
-        //public String HibaLeiras;
-
-        List<HibaClass> FelhAdatok = new List<HibaClass>();
         private string nev;
         private DateTime bejelentesDatum;
         private string hibaLeiras;
@@ -22,10 +17,6 @@ namespace HibaBejelnto20180117
             this.nev = nev;
             this.bejelentesDatum = bejelentesDatum;
             this.hibaLeiras = hibaLeiras;
-        }
-
-        public static void ListabaIras(String Nev, DateTime BejelentesDatum, String HibaLeiras) {
-            FelhAdatok.Add(new HibaClass(Nev, BejelentesDatum , HibaLeiras) );
         }
     }
 }
